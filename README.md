@@ -13,9 +13,11 @@ PythonでJWTのサンプル。
 ```
 
 出力を https://jwt.io/ にコピペし、
-- ex1.py のほうは コード中の鍵を、
-- ex2.py のほうは public_key_fileの中身を
-`your-256-bit-secret` に貼り付けてverify
+
+- ex1.py のほうは コード中の鍵を、`your-256-bit-secret` に
+- ex2.py のほうは public_key_fileの中身を `Public Key in SPKI, PKCS #1, X.509 Certificate, or JWK string format.` に
+
+貼り付けてverify
 
 # 参考
 
